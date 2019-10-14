@@ -1,0 +1,81 @@
+.bg-modal{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+	top: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;
+animation-name: modal;
+animation-duration: 1s;
+
+}
+
+@keyframes modal{
+	from{top: -33px;opacity: 0;}
+	to{top: 0;opacity: 1;}
+}
+
+
+.modal-content{
+
+
+width: 400px;
+height: 50%;
+background: linear-gradient(90deg,#10a6e6,#07485e);
+border-radius: 5px;
+text-align: center;
+padding: 20px;
+position: relative;
+animation-name: modal;
+animation-duration: 1s;
+
+
+
+}
+
+
+
+
+
+
+.close{
+	
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	
+	
+
+}
+
+
+
+
+
+.modificar{
+
+width: 50%;
+height: 25px;
+display: block;
+margin: 15px auto;
+
+font-size: 16px;
+font-family: "Roboto";
+border: 0px;
+border-radius: 4px;
+
+background: linear-gradient(90deg,#66FFFF,#717079);
+}
+
+
+.txt{
+height: 100%;
+width: 100%;
+display: block;
+margin: 15px auto;
+font-family: "Roboto";
+}
